@@ -31,4 +31,17 @@ news api key = 714d4db05bb74694838d3faf9fb4bd28
 
 
 
-    
+     <h1 className="mx-3"
+          style={{
+            textAlign: "center",
+            margin: "40px 0px",
+            marginTop: '90px'
+            // fontFamily: 'Ephesis, cursive, Gasoek One, sans-serif, Poppins, sans-serif'
+            fontfamily: 'Dancing Script', cursive,
+font-family: 'Ephesis', cursive,
+font-family: 'Gasoek One', sans-serif,
+font-family: 'Poppins', sans-serif,
+
+          }} >
+          NewsExpress Top {capitalizeFirstLetter(props.category)} Headlines
+        </h1>

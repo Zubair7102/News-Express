@@ -67,8 +67,9 @@ const News = (props) => {
             margin: "40px 0px",
             marginTop: '90px'
             // fontFamily: 'Ephesis, cursive, Gasoek One, sans-serif, Poppins, sans-serif'
+            
           }} >
-          NewsExpress - Top {capitalizeFirstLetter(props.category)} Headlines
+          NewsExpress Top {capitalizeFirstLetter(props.category)} Headlines
         </h1>
     
         {loading && <Spinner />}
